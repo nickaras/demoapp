@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Slots</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+
+            html {
+                /*background: url(images/main_bg.png) no-repeat center center fixed;*/
+
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+
+            }
+            body {
+                margin: 0px;
+                padding: 0px;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                overflow: auto;
+
+            }
+
+            #canvas{
+/*                width: 960px;
+                height: 536px;*/
+                border: 1px solid black;
+/*                background: url(images/BG.png);*/
+              
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                /*                margin: auto;*/
+            }
+            
+
+        </style>
+    </head>
+    <body>
+        <canvas id='canvas' width = "960" height="716"></canvas>
+       
+
+        <script src="js/utils.js" type="text/javascript"></script>
+        <script src="js/config.js" type="text/javascript"></script>
+        <script src="js/observer.js" type="text/javascript"></script>
+
+        <script src="js/server.js" type="text/javascript"></script>
+        <script src="js/winManager.js" type="text/javascript"></script>
+
+        <script src="js/imageLoader.js" type="text/javascript"></script>
+        <script src="js/Sprite.js" type="text/javascript"></script>
+        <script src="js/reelManager.js" type="text/javascript"></script>
+
+        <script src="js/generalButton.js" type="text/javascript"></script>
+        <script src="js/spinbutton.js" type="text/javascript"></script>
+        <script src="js/imageSelector.js" type="text/javascript"></script>
+
+        <script src="js/betLinesManager.js" type="text/javascript"></script>
+        <script src="js/betLineIndicators.js" type="text/javascript"></script>
+        <script src="js/betLine.js" type="text/javascript"></script>
+        <script src="js/reel.js" type="text/javascript"></script>
+        <script src="js/valueSelector.js" type="text/javascript"></script>
+        
+        <script src="js/keyPad.js" type="text/javascript"></script>
+        <script src="js/winAnimations.js" type="text/javascript"></script>
+        <script src="js/engine.js" type="text/javascript"></script>
+    </body>
+</html>

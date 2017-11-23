@@ -1,0 +1,15 @@
+{
+  "name": "netent-slot",
+  "version": "1.0.1",
+  "description": "Test slot",
+  "main": "index.js",
+  "repository": "ssh://35.156.211.147/srv/git/slot.git",
+  "author": "Netent",
+  "license": "Netent",
+
+  "scripts": {
+    "env": "env",
+    "build:clean": "rm -rf build"
+    }
+
+}
